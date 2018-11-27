@@ -1,0 +1,84 @@
+[ 2018-11-17T00:50:27+08:00 ] 112.48.8.225 /index.php/home/shop/paysuccess?oid=1542387013
+ERR: 模板不存在:./Application/Home/View/Shop/paysuccess.html
+
+[ 2018-11-17T00:50:39+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:39','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:39','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:43+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:43','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:43','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:47+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:47','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:47','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:47+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:47','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:47','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:48+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:48','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:48','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:48+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:48','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:48','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:50+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:50','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:50','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:50+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:50','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:50','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:50+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:50','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','213123213','北京市辖区东城区','5485','2018-11-17 00:50:50','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:51+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','12312','北京市辖区东城区','5485','2018-11-17 00:50:51','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','asdasd','12312','北京市辖区东城区','5485','2018-11-17 00:50:51','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:53+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','123','12312','北京市辖区东城区','5485','2018-11-17 00:50:53','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','123','12312','北京市辖区东城区','5485','2018-11-17 00:50:53','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:53+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','123','12312','北京市辖区东城区','5485','2018-11-17 00:50:53','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','123','12312','北京市辖区东城区','5485','2018-11-17 00:50:53','0-0-0 0:0:0')
+
+[ 2018-11-17T00:50:53+08:00 ] 112.48.8.225 /index.php/home/shop/addorder
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','123','12312','北京市辖区东城区','5485','2018-11-17 00:50:53','0-0-0 0:0:0')
+ERR: 1062:Duplicate entry '1542387013' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `yf_order` (`OID`,`PIDs`,`ID`,`name`,`phone`,`AddressID`,`Price`,`ordertime`,`disposetime`) VALUES ('1542387013','10007:1:250,10012:1:5235','7','123','12312','北京市辖区东城区','5485','2018-11-17 00:50:53','0-0-0 0:0:0')
+
+[ 2018-11-17T00:51:02+08:00 ] 112.48.8.225 /index.php/home/shop/paysuccess?oid=1542387059
+ERR: 模板不存在:./Application/Home/View/Shop/paysuccess.html
+

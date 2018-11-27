@@ -1,0 +1,1 @@
+a:9:{i:0;s:3:"PID";i:1;s:3:"TID";i:2;s:5:"Tname";i:3;s:5:"Pname";i:4;s:6:"Number";i:5;s:5:"Price";i:6;s:6:"isShow";i:7;s:9:"Recommend";s:5:"_type";a:8:{s:3:"PID";s:7:"int(11)";s:3:"TID";s:7:"int(11)";s:5:"Tname";s:11:"varchar(10)";s:5:"Pname";s:11:"varchar(50)";s:6:"Number";s:7:"int(11)";s:5:"Price";s:7:"int(11)";s:6:"isShow";s:10:"varchar(2)";s:9:"Recommend";s:10:"varchar(2)";}}

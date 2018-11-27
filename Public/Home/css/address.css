@@ -1,0 +1,167 @@
+.address{
+    width: 1008px;
+    margin: 10px 0 20px ;
+}
+
+.address-info{
+    color: #F88600;
+    width:100%;
+    height:40px;
+    line-height:40px;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left:20px;
+    background: rgb(204, 220, 255);
+}
+
+.address-details{
+    border:1px solid gray;
+    width:100%;
+    height:auto;
+    margin-top: 20px;
+}
+
+.address-details-title{
+    width:100%;
+    height:40px;
+    line-height:40px;
+    background: #efeeed;
+    color:dimgray;
+    padding-left:20px;
+}
+
+.address-details tr{
+    width:100%;
+    height:40px;
+    line-height:40px;
+
+}
+
+.address-details tr th{
+    border:1px solid #bcbcbc;
+}
+.address-details tr td{
+    border:1px solid #bcbcbc;
+    text-align:center;
+}
+.default{
+    padding: 3px;
+    font-size: 14px;
+    color: #EC5937;
+    border-radius:5px;
+    background-color: #fad5d0;
+    border: 1px #C85E0B solid;
+}
+
+.address-details .set{
+    padding: 3px;
+    font-size:14px;
+}
+
+.address-add{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    color:orangered;
+}
+
+.address-main{
+    width:600px;
+    height:400px;
+}
+
+.address-main ul li{
+    display: inline-block;
+    width:600px;
+    height:50px;
+    line-height:50px;
+    text-align:left;
+}
+
+.address-main .column{
+    width:120px;
+    height:50px;
+    display: inline-block;
+    line-height:50px;
+    text-align:right;
+    font-size:15px;
+    color: #404040;
+}
+
+.float-left {
+    float:left;
+}
+
+.address-main .column .note{
+    color:red;
+    font-size:18px;
+}
+
+.address-main-text{
+    margin-left:5px;
+}
+
+.address-main textarea{
+    width:384px;
+    font-size:14px;
+    padding:8px;
+    height:34px;
+    border-radius:3px;
+    border:1px solid gray;
+    resize: none;
+}
+
+.address-main .address-text{
+    width:392px;
+    height:30px;
+    border-radius:3px;
+    border:1px solid gray;
+    padding-left:8px;
+}
+
+.address-frame{
+    height:30px;
+    border:1px solid gray;
+    outline:none;
+    border-radius:3px;
+    color:gray;
+}
+
+.address-main .nametext{
+    color:red;
+    font-size:14px;
+    margin-left:124px;
+    width:400px;
+    height:30px;
+    line-height:30px;
+}
+
+.address-give{
+    width:500px;
+    height:50px;
+    margin-left:100px;
+    margin-top:20px;
+    line-height:50px;
+}
+
+.address-give-box{
+    width:20px;
+    height:20px;
+    padding-top:5px;
+    margin-top:5px;
+    color:white;
+}
+
+.address-give-btn{
+    width:60px;
+    height:30px;
+    margin-left:100px;
+    margin-top:20px;
+    text-align:center;
+    line-height:30px;
+    border-radius:3px;
+    border-style:none;
+    background: rgba(106, 117, 255, 0.74);
+    color:white;
+}

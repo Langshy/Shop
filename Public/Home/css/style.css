@@ -1,0 +1,120 @@
+#l-Sin{
+    width: 665px;
+    height: 680px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: fixed;
+    top: 50px;
+    left: 32.5%;
+}
+.l-SinContent{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+}
+.l-Sin{
+    width: 198px;
+    height: 38px;
+    background-color: #ffffff;
+    border: 1px solid #138b8b;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.choose-text{
+    width: 99px;
+    height: 38px;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+    color: #138b8b;
+    font-family: MicrosoftYaHei;
+    font-weight: normal;
+    font-stretch: normal;
+    cursor: pointer;
+}
+.show{
+    background: #138b8b;
+    color:#ffffff;
+}
+
+.login{
+    width: 350px;
+    height: 200px;
+    margin-top: 125px;
+}
+.register{
+    width:350px;
+    height: 370px;
+    margin-top: 75px;
+}
+.vecode{
+    width: 230px!important;
+}
+.vecode input{
+    width: 190px!important;
+}
+.l-SinContent ul li{
+    width: 348px;
+    height: 42px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #999999;
+}
+.l-SinContent ul li img{
+    display: block;
+    margin:11px 10px;
+    float: left;
+}
+.l-SinContent ul li input{
+    display: block;
+    float: left;
+    width: 308px;
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+
+}
+.button{
+    background: #138b8b;
+    width: 348px!important;
+    cursor: pointer;
+    font-family: 'MicrosoftYaHei';
+    font-size: 18px;
+    color: #ffffff;
+}
+.l-SinContent span{
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #666666;
+}
+.l-SinContent span a{
+    color: #138b8b;
+}
+.close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+.iframe{
+    width: 100%;
+    background: #ffffff;
+}
+#frameContent{
+    width: 100%;
+}
+.check-this{
+    border-bottom: 2px #138b8b solid;
+    color: #138b8b !important;
+}
+
+
+
+

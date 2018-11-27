@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线商城</title>
+    <link rel="shortcut icon" href="__PUBLIC__/Admin/img/logo.icon.png">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/shop.css">
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/main.css">
+    <script src="__PUBLIC__/Home/js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="header_T"><img src="__PUBLIC__/Home/images/形状 7 拷贝.png" width="100%"/></div>
+    <img src="__PUBLIC__/Home/images/bench-accounting-49909.png" width="100%" height="100%"/>
+    <div class="header_nav">
+        <div class="left"><img src="__PUBLIC__/Home/images/logo.png" height="68" width="257"/></div>
+        <div class="centre">
+            <ul>
+                <li>
+                    <a href="{:U('Home/Index/index')}">首页</a>
+                    <a href="{:U('Home/Index/index')}">关于我们</a>
+                    <a href="{:U('Home/Shop/index')}" class="check-this">在线商城</a>
+                    <a href="{:U('Home/Index/index')}">联系我们</a>
+                    <a href="{:U('Home/Index/index')}">新闻动态</a>
+                    <a href="#">下载app</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <i class="icon-search"></i>
+            <if condition="empty($userName) eq true">
+                <i class="icon-login getLogin"></i>
+                <i class="icon-bug getLogin"></i>
+                <else/>
+                <a href="{:U('Home/User/index')}"><i class="icon-user"></i></a>
+                <a href="{:U('Home/User/cart')}"><i class="icon-bug">
+                    <span class="circle-num">{$num}</span>
+                </i></a>
+            </if>
+        </div>
+    </div>
+    <button class="header_button">立即购买</button>
+</header>
+<div class="main">
+    <div class="main_name">
+        <ul>
+            <li><a href="{:U('Home/Shop/index')}" class="this">全部</a></li>
+            <volist name="type" id="t">
+                <li class="main_name_type"><a href="{:U('Home/Shop/part')}?id={$t.tid}"><input type="hidden" value="{$t.tid}">{$t.tname}</a></li>
+            </volist>
+        </ul>
+    </div>
+    <div class="main_shop">
+        <ul>
+            <volist name="product" id="a">
+            <li>
+                <input type="hidden" value="{$a.pid}" name="pid">
+                <input type="hidden" value="{$a.tid}" name="tid">
+                <div><img src="{$a.photoaddress}"  width="80%"/></div>
+                <p>{$a.pname}</p>
+                <p>￥{$a.price}</p>
+            </li>
+            </volist>
+        </ul>
+    </div>
+    <div class="main_paging">
+        <div class="number"><button>1</button><button>2</button><button>3</button><span>...共10页,</span>跳转到<input type="number" min="1" value="1"  style="width: 50px">页<button>确定</button></div>
+        <div class="paging"><button>上一页</button><button>下一页</button></div>
+    </div>
+</div>
+<footer>
+    <div class="footer_img"><img src="__PUBLIC__/Home/images/世界很大，寻一方静土.png" width="100%" height="100%"/></div>
+    <div class="footer_bottom">
+        <div class="footer_bottom_a">
+            <ul>
+                <li style="margin-left: 6%">
+                    <h1 style="font-size: 15px;color:#333333;font-weight: bold;margin-top: 30px">联系我们 -</h1><br>
+                    <p style="color:#333333;font-size: 6px">XiaoYi Dong</p>
+                    <p style="color:#333333;font-size: 6px">1021517054@qq.com</p>
+                </li>
+                <li style="margin-left: 14%">
+                    <h1 style="font-size: 15px;color:#333333;font-weight: bold;margin-top: 30px">客服热线 -</h1><br>
+                    <p style="color:#333333;font-size: 6px">400-123-1234</p>
+                    <p style="color:#333333;font-size: 6px">+61 433 679 520</p>
+                </li>
+                <li style="margin-left: 14%">
+                    <h1 style="font-size: 15px;color:#333333;font-weight: bold;margin-top: 30px">关于我们 -</h1><br>
+                    <p style="color:#333333;font-size: 6px">weibo：yifang-home</p>
+                    <p style="color:#333333;font-size: 6px">WeChat：yifang-home</p>
+                </li>
+                <li style="margin-left: 14%">
+                    <img src="__PUBLIC__/Home/images/QR CODE.png">
+                    <p style="color:#333333;font-size: 6px;text-align: center">扫一扫下载客户端</p>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_bottom_b">
+            <p>Copyright © 2017 yifanghome.com Inc.All Rights Reserved. 厦门一方家居有限公司</p><br>
+            <p>版权所有 京ICP备14049645号-0 增值电信业务经营许可证：京ICP证123456号</p>
+        </div>
+    </div>
+</footer>
+<div id="l-Sin" style="display: none">
+    <div class="close">
+        <img src="__PUBLIC__/Home/images/close.png">
+    </div>
+    <div class="l-SinContent">
+        <div class="l-Sin">
+            <div class="choose-text show" id="login">登录</div>
+            <div class="choose-text" id="register">注册</div>
+        </div>
+        <div class="login">
+            <form  action="{:U('Home/Index/login')}" method="post">
+                <ul>
+                    <li><img src="__PUBLIC__/Home/images/用户名.png"><input type="text" name="userName" placeholder="输入用户名"></li>
+                    <li><img src="__PUBLIC__/Home/images/密码.png"><input type="password" name="password" placeholder="输入6-32位数字或字母"></li>
+                    <li><input type="submit" value="登录" class="button"></li>
+                </ul>
+            </form>
+        </div>
+        <div class="register"  style="display: none">
+            <form  action="{:U('Home/Index/register')}" method="post"  onsubmit="return isRead();">
+                <ul>
+                    <li><img src="__PUBLIC__/Home/images/用户名.png"><input type="text" name="userName" placeholder="输入用户名"></li>
+                    <li><img src="__PUBLIC__/Home/images/手机.png"><input type="text" name="phone" placeholder="输入手机号"></li>
+                    <li class="vecode"><img src="__PUBLIC__/Home/images/验证码.png"><input type="text" name="vecode" placeholder="输入验证码"></li>
+                    <li><img src="__PUBLIC__/Home/images/密码.png"><input type="password" name="password" placeholder="输入6-32位数字或字母"></li>
+                    <li><input type="submit" value="注册" class="button"></li>
+                    <span>
+                        <input type="checkbox" value="checked">
+                        我已经同意了<a href="javascript:;">《一方家具服务条款》</a>
+                    </span>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="mask_top">
+    <a href="#"><img src="__PUBLIC__/Home/images/形状 820.png" width="50" height="50" title="返回顶部"></a>
+</div>
+</body>
+</html>
+<script>
+    //滚动条事件
+    window.onscroll=function () {
+        var a = document.documentElement.scrollTop;
+        if(a<800){
+            $('.mask_top').hide();
+        }else{
+            $('.mask_top').show();
+        }
+    };
+
+    $(function () {
+        //login&&register
+        let login = $('#login');
+        let register = $('#register');
+
+        login.on('click',function () {
+            login.addClass('show');
+            register.removeClass('show');
+            $('.login').show();
+            $('.register').hide();
+        });
+        register.on('click',function () {
+            register.addClass('show');
+            login.removeClass('show');
+            $('.login').hide();
+            $('.register').show();
+        });
+
+        $('.close').on('click',function () {
+            $('#l-Sin').hide();
+        });
+
+        $('.getLogin').on('click',function () {
+            $('#l-Sin').show();
+        });
+
+        $('.vecodes').click(function (e) {
+            e.preventDefault();
+            let phone = $('input[name=phone]').val();
+            let patten = /0?(13|14|15|18|17)[0-9]{9}/;
+            if(phone==null || phone==''){
+                alert('请填写手机号！');
+                return;
+            }else if(!patten.test(phone)){
+                alert('请输入正确的手机号！');
+                $('input[name=phone]').val('');
+                return;
+            }
+            alert('已发送验证码！');
+            $.ajax({
+                url:"{:U('Home/Index/code')}",
+                type:"POST",
+                data:{"phone":phone},
+                success:function (msg) {
+                    console.log(msg);
+                }
+            })
+        });
+
+        $(".main_name_type a").on('click',(function () {
+            if($($this)[0].href==String(window.location)){
+                $(this).css("color","#138b8b").css("border-left","1px solid")
+            }
+
+        }))
+
+        $('.main_shop>ul').find('li').click(function () {
+            let pid = $(this).find('input[name=pid]').val();
+            let tid = $(this).find('input[name=tid]').val();
+            window.location.href="{:U('Home/Particulars/index')}?pid="+pid+"&tid="+tid;
+        });
+    });
+</script>

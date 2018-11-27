@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <link rel="shortcut icon" href="__PUBLIC__/Admin/img/logo.icon.png">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/home.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/details.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Home/css/main.css">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="header_nav nav-ab">
+        <div class="left"><img src="__PUBLIC__/Home/images/logo.png" height="68" width="257"/></div>
+        <div class="centre">
+            <ul>
+                <li>
+                    <a href="{:U('Home/Index/index')}" target="frameContent">首页</a>
+                    <a href="{:U('Home/Index/index')}" target="frameContent">关于我们</a>
+                    <a href="{:U('Home/Shop/index')}"  class="check-this">在线商城</a>
+                    <a href="{:U('Home/Index/index')}" target="frameContent">联系我们</a>
+                    <a href="{:U('Home/Index/index')}" target="frameContent">新闻动态</a>
+                    <a href="#">下载app</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <i class="icon-search"></i>
+            <if condition="empty($userName) eq true">
+                <i class="icon-login getLogin user"></i>
+                <i class="icon-bug getLogin"></i>
+                <else/>
+                <i class="icon-user user"></i>
+                <a href="{:U('Home/User/cart')}"><i class="icon-bug">
+                    <span class="circle-num">{$num}</span>
+                </i></a>
+            </if>
+        </div>
+    </div>
+</header>
+<div class="type">
+    <ul>
+        <li><a href="{:U('Home/Shop/part')}?id=all">全部</a></li>
+        <volist name="type" id="t">
+            <if condition="$t.tid eq $tid">
+                <li><a href="{:U('Home/Shop/part')}?id={$t.tid}" class="type-this"><input type="hidden" value="{$t.tid}">{$t.tname}</a></li>
+                <else/>
+                <li><a href="{:U('Home/Shop/part')}?id={$t.tid}"><input type="hidden" value="{$t.tid}">{$t.tname}</a></li>
+            </if>
+        </volist>
+    </ul>
+</div>
+<div class="content">
+    <div class="column">
+        <a href="">在线商城</a><span> > </span>
+        <volist name="type" id="t">
+            <if condition="$t.tid eq $tid">
+                <a href="">{$t.tname}</a>
+            </if>
+        </volist>
+    </a>
+    </div>
+    <div class="show-img"><img src="{$product.photoaddress}" width="606"/></div>
+    <div class="sale">
+        <ul>
+            <input type="hidden" value="{$product.pid}" class="pid">
+            <li class="sala-header">{$product.pname}</li>
+            <li class="sala-price">¥ {$product.price}</li>
+            <li class="sala-list">
+                <span><img src="__PUBLIC__/Home/images/形状11.png" height="20" width="20"/> 欧美标准质量&nbsp;&nbsp;</span>
+                <span><img src="__PUBLIC__/Home/images/形状11.png" height="20" width="20"/> 24小时快速发货&nbsp;&nbsp;</span>
+                <span><img src="__PUBLIC__/Home/images/形状11.png" height="20" width="20"/> 30天无忧退货</span>
+            </li>
+            <li class="sala-note"><p>尺      寸：L210×W65×H40cm</p>
+                <p>重      量：58kg</p>
+                <p>材      料：进口纯羊毛布料、特级白橡木</p></li>
+            <li class="sale-color">颜色：
+                <label class="radio"><input type="radio" name="radio" value="1" checked><i></i></label>
+                <label class="radio"><input type="radio" name="radio" value="2" class="radio-two"><i></i></label>
+                <label class="radio"><input type="radio" name="radio" value="3" class="radio-three"><i></i></label>
+            </li>
+            <li class="sale-num">数量：
+                <input id="del" class="del" type="button" value="-"><input id="sale-num" class="input-num" type="text" value="1"><input id="add" class="add" type="button" value="+">
+            </li>
+            <li class="sale-select">
+                <div class="getCart btn">加入购物车</div>
+                <div class="buy btn">立即购买</div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="tail">
+    <div class="tail-title">
+        <p>常见问题</p>
+        <p>Q & A</p>
+    </div>
+    <div class="tail-content">
+        <ul>
+            <li>
+                <div class="tail-piece , left">
+                    <p class="tail-title">Q：请问有现货吗？</p>
+                    <p>
+                    <div class="letter">A：</div>
+                    <div class="new">大部分产品是没有现货的，正常发货时 间为45天，部分现货的产品有标注。</div>
+                    </p>
+                </div>
+                <div class="tail-piece">
+                    <p class="tail-title">Q：请问包邮上楼吗？</p>
+                    <p>
+                    <div class="letter">A：</div>
+                    <div class="new">是的，顺丰包邮，除非您所居住的小区没有电梯且楼层在三层以上，会收取少量费用。</div>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="tail-piece , left">
+                    <p class="tail-title">Q：请问入门安装吗？</p>
+                    <p>
+                    <div class="letter">A：</div>
+                    <div class="new">没有喔，需要自己动手搞定，随包有配 送工具，几分钟就ok。</div>
+                    </p>
+                </div>
+                <div class="tail-piece">
+                    <p class="tail-title">Q：请问是七天无理由退换货吗？</p>
+                    <p>
+                    <div class="letter">A：</div>
+                    <div class="new">不是，非质量问题不接受七天无理由退 换。大件家具包装专业，拆装后无法确 保运回途中不受损伤，请谨慎下单。</div>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="return">
+    <a href="#">返回顶部</a>
+</div>
+<div id="l-Sin" style="display: none">
+    <div class="close">
+        <img src="__PUBLIC__/Home/images/close.png">
+    </div>
+    <div class="l-SinContent">
+        <div class="l-Sin">
+            <div class="choose-text show" id="login">登录</div>
+            <div class="choose-text" id="register">注册</div>
+        </div>
+        <div class="login">
+            <form action="{:U('Home/Index/login')}" method="post">
+                <ul>
+                    <li><img src="__PUBLIC__/Home/images/用户名.png"><input type="text" name="userName" placeholder="输入用户名"></li>
+                    <li><img src="__PUBLIC__/Home/images/密码.png"><input type="password" name="password" placeholder="输入6-32位数字或字母"></li>
+                    <li><input type="submit" value="登录" class="button"></li>
+                </ul>
+            </form>
+        </div>
+        <div class="register"  style="display: none">
+            <form>
+                <ul>
+                    <li><img src="__PUBLIC__/Home/images/用户名.png"><input type="text" name="userName" placeholder="输入用户名"></li>
+                    <li><img src="__PUBLIC__/Home/images/手机.png"><input type="text" name="phone" placeholder="输入手机号"></li>
+                    <li class="vecode"><img src="__PUBLIC__/Home/images/验证码.png"><input type="text" name="vecode" placeholder="输入验证码"></li>
+                    <li><img src="__PUBLIC__/Home/images/密码.png"><input type="password" name="password" placeholder="输入6-32位数字或字母"></li>
+                    <li><input type="submit" value="登录" class="button"></li>
+                    <span>
+                        <input type="checkbox" value="checked">
+                        我已经同意了<a href="javascript:;">《一方家具服务条款》</a>
+                    </span>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer_img"><img src="__PUBLIC__/Home/images/世界很大，寻一方静土.png" width="100%" height="100%"/></div>
+    <div class="footer_bottom">
+        <div class="footer_bottom_a">
+            <ul>
+                <li style="margin-left: 6%">
+                    <h1 style="font-size: 15px;color:#333333;font-weight: bold;margin-top: 30px">联系我们 -</h1><br>
+                    <p style="color:#333333;font-size: 6px">XiaoYi Dong</p>
+                    <p style="color:#333333;font-size: 6px">1021517054@qq.com</p>
+                </li>
+                <li style="margin-left: 14%">
+                    <h1 style="font-size: 15px;color:#333333;font-weight: bold;margin-top: 30px">客服热线 -</h1><br>
+                    <p style="color:#333333;font-size: 6px">400-123-1234</p>
+                    <p style="color:#333333;font-size: 6px">+61 433 679 520</p>
+                </li>
+                <li style="margin-left: 14%">
+                    <h1 style="font-size: 15px;color:#333333;font-weight: bold;margin-top: 30px">关于我们 -</h1><br>
+                    <p style="color:#333333;font-size: 6px">weibo：yifang-home</p>
+                    <p style="color:#333333;font-size: 6px">WeChat：yifang-home</p>
+                </li>
+                <li style="margin-left: 14%">
+                    <img src="__PUBLIC__/Home/images/QR CODE.png">
+                    <p style="color:#333333;font-size: 6px;text-align: center">扫一扫下载客户端</p>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_bottom_b">
+            <p>Copyright © 2017 yifanghome.com Inc.All Rights Reserved. 厦门一方家居有限公司</p><br>
+            <p>版权所有 京ICP备14049645号-0 增值电信业务经营许可证：京ICP证123456号</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+<script>
+    $(function () {
+        //login&&register
+        let login = $('#login');
+        let register = $('#register');
+
+        login.on('click',function () {
+            login.addClass('show');
+            register.removeClass('show');
+            $('.login').show();
+            $('.register').hide();
+        });
+        register.on('click',function () {
+            register.addClass('show');
+            login.removeClass('show');
+            $('.login').hide();
+            $('.register').show();
+        });
+
+        $('.close').on('click',function () {
+            $('#l-Sin').hide();
+        });
+
+        $('.getLogin').on('click',function () {
+            $('#l-Sin').show();
+        });
+
+        $('.vecodes').click(function (e) {
+            e.preventDefault();
+            let phone = $('input[name=phone]').val();
+            let patten = /0?(13|14|15|18|17)[0-9]{9}/;
+            if(phone==null || phone==''){
+                alert('请填写手机号！');
+                return;
+            }else if(!patten.test(phone)){
+                alert('请输入正确的手机号！');
+                $('input[name=phone]').val('');
+                return;
+            }
+            alert('已发送验证码！');
+            $.ajax({
+                url:"{:U('Home/Index/code')}",
+                type:"POST",
+                data:{"phone":phone},
+                success:function (msg) {
+                    alert(msg);
+                }
+            })
+        });
+
+
+        $('.type>ul>li>a').on('click',function () {
+            $('.type>ul>li').children().removeClass('type-this');
+            $(this).addClass('type-this');
+        });
+
+        $('.getCart').click(function () {
+            let user = $('.user');
+            if(user.hasClass('icon-user')){
+                let pid = $('.pid').val();
+                let number = $('.input-num').val();
+                $.ajax({
+                    url:"{:U('Home/Particulars/addCart')}",
+                    type:"POST",
+                    data:{"pid":pid,"number":number},
+                    success:function (msg) {
+                        if(msg){
+                            alert('添加成功！');
+                        }else {
+                            alert('添加失败！');
+                        }
+                    }
+                });
+            }else {
+                $('#l-Sin').show();
+            }
+        });
+    });
+</script>

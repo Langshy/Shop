@@ -1,0 +1,1 @@
+a:7:{i:0;s:3:"AID";i:1;s:9:"Ausername";i:2;s:9:"Apassword";i:3;s:5:"power";i:4;s:12:"photoAddress";s:3:"_pk";s:3:"AID";s:5:"_type";a:5:{s:3:"AID";s:7:"int(11)";s:9:"Ausername";s:11:"varchar(10)";s:9:"Apassword";s:11:"varchar(32)";s:5:"power";s:11:"varchar(10)";s:12:"photoAddress";s:12:"varchar(100)";}}

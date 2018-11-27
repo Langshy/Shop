@@ -1,0 +1,1 @@
+a:6:{i:0;s:3:"PID";i:1;s:2:"ID";i:2;s:6:"Number";i:3;s:3:"SID";s:3:"_pk";s:3:"SID";s:5:"_type";a:4:{s:3:"PID";s:7:"int(11)";s:2:"ID";s:7:"int(11)";s:6:"Number";s:7:"int(11)";s:3:"SID";s:7:"int(11)";}}

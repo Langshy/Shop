@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+body{
+    min-width: 1300px;
+}
+header{
+    width: 100%;
+    height: 790px;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 548px;
+    position: relative;
+    /*border: 1px salmon solid;*/
+}
+.word{
+    /*border: 1px salmon solid;*/
+    width: 403px;
+    height: 55px;
+    font-Size: 30px;
+    color: #333333;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 58%;
+    left: 42%;
+}
+.header_nav{
+    width: 90%;
+    height: 75px;
+    position: absolute;
+    top: 30px;
+    left:5%;
+}
+.header_nav .left{
+    float: left;
+    width: 20%;
+    height: 75px;
+}
+.header_nav .centre{
+    width: 60%;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    float: left;
+}
+.header_nav .centre a{
+    padding: 3px 0;
+    margin-left: 20px;
+    font-size: 14px;
+    color: black;
+}
+.header_nav .centre a:hover{
+    border-bottom: 2px #138b8b solid;
+    color: #138b8b;
+}
+.header_nav .right{
+    width: 19%;
+    height: 75px;
+    line-height: 75px;
+    text-align: right;
+    float: left;
+}
+.header_nav .right span{
+    margin-left: 5%;
+}
+.main{
+    clear: both;
+    width: 100%;
+    height: 520px;
+    background:#ffffff;
+    margin: 0 auto;
+    /*border: 1px crimson solid;*/
+}
+.mains{
+    width: 60%;
+    margin: 0 auto;
+}
+.CONTACT{
+    height: 90px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.hr{
+    width: 38px;
+    height: 2px;
+    background: black;
+    border: black solid 1px;
+    margin: 13px auto;
+}
+.contact{
+    width:120px;
+    height: 29px;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #333333;
+}
+.contact-foot{
+    /*border: 1px salmon solid;*/
+    width: 53.6%;
+    height: 248px;
+    margin: 100px auto;
+    position: relative;
+    font-size: 9px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 0;
+    color: #333333;
+}
+

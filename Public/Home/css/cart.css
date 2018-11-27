@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    min-width: 1470px;
+}
+header{
+    width: 100%;
+    height: 790px;
+    position: relative;
+}
+.header_nav{
+    width: 90%;
+    height: 75px;
+    position: absolute;
+    top: 30px;
+    left:5%;
+}
+.header_nav .left{
+    float: left;
+    width: 20%;
+    height: 75px;
+}
+.header_nav .centre{
+    width: 60%;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    float: left;
+}
+.header_nav .centre a{
+    padding: 3px 0;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+.header_nav .centre a:hover{
+    border-bottom: 2px #138b8b solid;
+    color:#138b8b;
+}
+.header_nav .right{
+    width: 19%;
+    height: 75px;
+    line-height: 75px;
+    text-align: right;
+    float: left;
+}
+.header_nav .right span{
+    margin-left: 5%;
+}
+.main{
+    width: 60%;
+    position: absolute;
+    left: 22%;
+    top: 12%;
+}
+.main ul li{
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid #c9cd6e;
+}
+.main ul li:last-of-type{
+    border: none;
+}
+.main ul li span:first-of-type{
+    text-align: left;
+}
+.main ul li span{
+    width: 14%;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    display: inline-block;
+}
+.main ul li .del:hover{
+    cursor: pointer;
+    background-color: #999999;
+    color: white;
+}
+.main ul li .pdel:hover{
+    cursor: pointer;
+    background-color: #999999;
+    color: white;
+}
+.main ul li span img{
+    vertical-align: middle;
+}
+.main span .btn{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(17, 102, 102, 0.6);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.main span .btn:hover{
+    cursor: pointer;
+    background-color: rgba(17, 102, 102, 0.81);
+    transition: all 0.4s;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>H+ 后台主题UI框架 - Bootstrap Table</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link href="__PUBLIC__/Admin/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/animate.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/style.min.css?v=4.0.0" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+    <base target="_blank">
+    <script src="__PUBLIC__/Admin/js/plugins/sweetalert/sweetalert.min.js"></script>
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox-content">
+        <div class="row row-lg">
+            <div class="col-sm-12">
+                <!-- Example Events -->
+                <div class="example-wrap">
+                    <h4 class="example-title">事件</h4>
+                    <div class="example">
+                        <table id="exampleTableEvents" data-height="450s" data-mobile-responsive="true">
+                            <thead>
+                            <tr>
+                                <th data-field="id">ID</th>
+                                <th data-field="name">管理员账号</th>
+                                <th data-field="power">权限</th>
+                                <th data-field="photo">头像地址</th>
+                            </tr>
+                            </thead>
+
+                            <!--管理员循环-->
+                            <volist name="admin" id="a">
+                                <tr>
+                                    <td data-field="id">{$a.aid}</td>
+                                    <td data-field="name">{$a.ausername}</td>
+                                    <td data-field="power">{$a.power}</td>
+                                    <td data-field="photo">{$a.photoaddress}</td>
+                                </tr>
+                            </volist>
+                        </table>
+                    </div>
+                </div>
+                <!-- End Example Events -->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="__PUBLIC__/Admin/js/jquery.min.js?v=2.1.4"></script>
+<script src="__PUBLIC__/Admin/js/bootstrap.min.js?v=3.3.5"></script>
+<script src="__PUBLIC__/Admin/js/content.min.js?v=1.0.0"></script>
+<script src="__PUBLIC__/Admin/js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="__PUBLIC__/Admin/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+<script src="__PUBLIC__/Admin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script src="__PUBLIC__/Admin/js/demo/bootstrap-table-demo.min.js"></script>
+</body>
+
+</html>

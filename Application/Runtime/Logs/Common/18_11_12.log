@@ -1,0 +1,155 @@
+[ 2018-11-12T11:11:47+08:00 ] ::1 /YFShop/Public/Admin/js/plugins/layer/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T11:11:47+08:00 ] ::1 /YFShop/Public/Admin/js/plugins/layer/extend/layer.ext.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T11:27:13+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T14:20:21+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T14:28:18+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T14:29:51+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-12T16:33:25+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T16:54:47+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-12T17:03:23+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T19:28:05+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A7%E2%80%9D%C2%A8%C3%A6%CB%86%C2%B7%C3%A5%C2%90%C2%8D.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-12T19:28:05+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T19:31:39+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T19:38:05+08:00 ] ::1 /YFShop/Public/Home/jquery-1.9.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T19:38:32+08:00 ] ::1 /YFShop/Public/Home/jsAddress.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T19:38:32+08:00 ] ::1 /YFShop/Public/Home/jquery-1.9.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T19:56:18+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-12T19:58:26+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T20:02:16+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A7%E2%80%9D%C2%A8%C3%A6%CB%86%C2%B7%C3%A5%C2%90%C2%8D.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-12T20:22:49+08:00 ] ::1 /YFShop/Public/Admin/js/plugins/layer/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T20:22:49+08:00 ] ::1 /YFShop/Public/Admin/js/plugins/layer/extend/layer.ext.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T20:32:25+08:00 ] ::1 /YFShop/Public/Home/jsAddress.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T20:32:25+08:00 ] ::1 /YFShop/Public/Home/jquery-1.9.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T20:35:49+08:00 ] ::1 /YFShop/Public/Admin/js/plugins/layer/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T20:35:49+08:00 ] ::1 /YFShop/Public/Admin/js/plugins/layer/extend/layer.ext.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-11-12T20:53:45+08:00 ] ::1 /YFShop/index.php/Hoem/Shop/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Hoem
+
+[ 2018-11-12T20:53:54+08:00 ] ::1 /YFShop/index.php/Hoem/Shop/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Hoem
+
+[ 2018-11-12T20:54:04+08:00 ] ::1 /YFShop/index.php/Hoem/Shop/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Hoem
+
+[ 2018-11-12T20:54:12+08:00 ] ::1 /YFShop/index.php/Hoem/Shop/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Hoem
+

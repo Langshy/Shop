@@ -1,0 +1,20 @@
+[ 2018-11-11T14:45:30+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-11T14:45:30+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A7%E2%80%9D%C2%A8%C3%A6%CB%86%C2%B7%C3%A5%C2%90%C2%8D.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-11T14:59:25+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A5%C2%BD%C2%A2%C3%A7%C5%A0%C2%B6%2012.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-11-11T14:59:25+08:00 ] ::1 /YFShop/Public/Home/images/%C3%A7%E2%80%9D%C2%A8%C3%A6%CB%86%C2%B7%C3%A5%C2%90%C2%8D.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+

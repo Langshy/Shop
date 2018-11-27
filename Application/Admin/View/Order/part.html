@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>title</title>
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__PUBLIC__/Admin/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+
+    <link href="__PUBLIC__/Admin/css/animate.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/style.min.css?v=4.0.0" rel="stylesheet"><base target="_blank">
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox-content p-xl">
+                <div class="row">
+                    <div class="col-sm-12 text-right">
+                        <h4>单据编号：</h4>
+                        <h4 class="text-navy">YF-{$order.oid}</h4>
+                        <address>
+                            <strong>{$order.name}</strong><br>
+                            {$order.addressid}<br>
+                            <abbr title="Phone">电话：</abbr> (86) {$order.phone}
+                        </address>
+                        <p>
+                            <span><strong>日期：</strong> {$order.ordertime}</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="table-responsive m-t">
+                    <table class="table invoice-table">
+                        <thead>
+                        <tr>
+                            <th>清单</th>
+                            <th>数量</th>
+                            <th>单价</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="product" id="pro">
+                            <tr>
+                                <td>
+                                    <div><strong>{$pro.pname}</strong>
+                                    </div>
+                                </td>
+                                <td>{$pro.number}</td>
+                                <td>&yen;{$pro.price}</td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /table-responsive -->
+
+                <table class="table invoice-total">
+                    <tbody>
+                    <tr>
+                        <td><strong>总价：</strong>
+                        </td>
+                        <td>&yen;{$order.price}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="__PUBLIC__/Admin/js/jquery.min.js?v=2.1.4"></script>
+<script src="__PUBLIC__/Admin/js/bootstrap.min.js?v=3.3.5"></script>
+<script src="__PUBLIC__/Admin/js/content.min.js?v=1.0.0"></script>
+</body>
+
+</html>

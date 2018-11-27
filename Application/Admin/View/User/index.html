@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>title</title>
+    <link rel="shortcut icon" href="../favicon.ico"> <link href="__PUBLIC__/Admin/css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/animate.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/style.min.css?v=4.0.0" rel="stylesheet">
+    <link href="__PUBLIC__/Admin/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+    <script src="__PUBLIC__/Admin/js/plugins/sweetalert/sweetalert.min.js"></script>
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox-content">
+        <div class="row row-lg">
+            <div class="col-sm-12">
+                <!-- Example Events -->
+                <div class="example-wrap">
+                    <h4 class="example-title">事件</h4>
+                    <div class="example">
+                        <table id="exampleTableEvents" data-height="450" data-mobile-responsive="true">
+                            <thead>
+                            <tr>
+                                <th data-field="id">ID</th>
+                                <th data-field="name">会员名</th>
+                                <th data-field="sex">用户性别</th>
+                                <th data-field="phone">手机号</th>
+                                <th data-field="photo">头像地址</th>
+                                <th data-field="email">邮箱</th>
+                                <th data-field="address">收货地址</th>
+                                <th data-field="cardID">卡均编号</th>
+                            </tr>
+                            </thead>
+
+                            <!--会员循环-->
+                            <volist name="userInfo" id="u">
+                            <tr>
+                                <td data-field="id">{$u.id}</td>
+                                <td data-field="name">{$u.uid}</td>
+                                <td data-field="sex">{$u.sex}</td>
+                                <td data-field="phone">{$u.phone}</td>
+                                <td data-field="photo">{$u.photoaddress}</td>
+                                <td data-field="email">{$u.email}</td>
+                                <td data-field="address">{$u.addressids}</td>
+                                <td data-field="cardID">{$u.cardids}</td>
+                            </tr>
+                            </volist>
+
+                        </table>
+                    </div>
+                </div>
+                <!-- End Example Events -->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="__PUBLIC__/Admin/js/jquery.min.js?v=2.1.4"></script>
+<script src="__PUBLIC__/Admin/js/bootstrap.min.js?v=3.3.5"></script>
+<script src="__PUBLIC__/Admin/js/content.min.js?v=1.0.0"></script>
+<script src="__PUBLIC__/Admin/js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="__PUBLIC__/Admin/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+<script src="__PUBLIC__/Admin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script src="__PUBLIC__/Admin/js/demo/bootstrap-table-demo.min.js"></script>
+
+</body>
+
+</html>
